@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Google</title>
+    <style>
+    body {background-color: white}
+    IMG.displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 150px;
+    }
+
+    /* Style search box */
+    input {
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        display: block;
+        width: 50%;
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-top:10px;
+        padding-left: 10px;
+        -webkit-tap-highlight-color: transparent;
+    }
+    button {
+        background-color:#f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+        color: #757575;
+        cursor: pointer;
+        font-family: arial,sans-serif;
+        font-size:13px;
+        font-weight:bold;
+        text-align:center;
+        padding-top: 8px;
+        padding-right: 22px;
+        padding-bottom: 8px;
+        padding-left: 22px;
+        margin-top: 11px;
+        margin-right: 4px;
+        margin-bottom: 11px;
+        margin-left: 4px;
+        margin-top: 10px;
+        font-size: 12px;
+        /* places buttons side by side */
+        display:inline-block;
+    }
+    button:hover {
+        color: #000000;
+    }
+    #container {
+        text-align: center;
+    }
+
+    #topnav-right {
+        float: right;
+    }
+    #topnav-top {
+        overflow: hidden;
+        background-color: transparent;
+        padding: 10px
+    }
+    #topnav-bottom {
+        overflow:hidden;
+        background-color: #f2f2f2 ;
+        bottom: 0px;
+        left: 0px;
+        right:0px;
+        padding:10px;
+        position:fixed;
+        width: 100%;
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        font-family: arial,sans-serif;
+        color: #666666; 
+        font-size:14px;
+        display: block, inline;
+        text-align: center;
+        padding: 14px 16px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="topnav-top">
+        <a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+        <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
+        <div id="topnav-right">
+            <a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a>
+        </div>
+    </div>
+          
+
+    <div id="container">
+        <IMG class="displayed" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <button type="submit">Google Search</button> 
+            <button type="submit">I'm Feeling Lucky</button>
+        </div>
+    </div>
+
+    <div id="topnav-bottom">
+        <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+        <div id="topnav-right">
+            <a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a>
+            <a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a>
+            <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        </div>
+    </div>
+    </body>
