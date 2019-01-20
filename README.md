@@ -20,9 +20,8 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 **Absollute positioning**: An element with position: absolute is positioned at the specified coordinates relative to your screen top-left corner.
 
 **Fixed positioning**: Fixed positioning allows you to fix the position of an element to a particular spot on the page, regardless of scrolling. Specified coordinates will be relative to the browser window.
-
-
-
+<br>
+<br>
 ### Stick a div onto the bottom or top of the page
 Fixed bottom: 
 ```css
@@ -40,9 +39,28 @@ div {
     width: 100%;
 }
 ```
+<br><br>
 ### Identify the background color of an existing webpage
+Use inspect tool -> look for `background-color` attribute in css.
+
+<br><br>
+
 ### Grab the URL for an image from an existing webpage
+Use inspect tool -> hover over image and click inspect. 
+
+<br><br>
 ### Center an element horizontally
+To center an image, set left and right margin to `auto` and make it into a `block` element:
+```html
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+```
+<br><br>
+
 ### Identify three ways you can include your CSS styles in a page
 #### Inline CSS
 Use the `style` attribute in HTML elements.
@@ -100,7 +118,64 @@ p {
   font-size: 12px;
 }
 ```
+<br><br>
 
 ### Understand how to use classes and ids to target CSS at specific elements on the page
+In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+
+**IDs** are unique: 
+- Each element can have only one ID
+- Each page can have only one element with that ID
+
+**Classes** are not unique: 
+- You can use the same class on multiple elements.
+- You can use multiple classes on the same element.
+
+The following style rule will be applied to the element with id "para1":
+```html
+para1 {
+  text-align: center;
+  color: red;
+}
+```
+
+The following style rule will be applied to all elements with class "center":
+```html
+.center {
+  text-align: center;
+  color: red;
+}
+```
+
+You can also specify that only specific HTML elements should be affected by a class. The following will be applied to only p elements with class "center": 
+```html
+p.center {
+  text-align: center;
+  color: red;
+}
+```
+<br><br>
 
 ### Build a very basic form (even if it doesn’t “go” anywhere)
+To build a search form, we use an `input` element.
+
+```html
+  <input type="text" placeholder="Search..">
+```
+Then you can style the element in css by specifying rules in `input` like:
+```css
+    /* Style search box */
+    input {
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        display: block;
+        width: 50%;
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-top:10px;
+        padding-left: 10px;
+        -webkit-tap-highlight-color: transparent;
+    }
+```
