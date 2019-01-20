@@ -1,6 +1,6 @@
 # google-homepage
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css
-
+You can check out my completed work for this assignment [here](https://janessatran.github.io/google-homepage/)!
 
 ## Things I learned: 
 ### Two ways to move a div around on the page
@@ -10,7 +10,7 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 
 **Fixed positioning**: Fixed positioning allows you to fix the position of an element to a particular spot on the page, regardless of scrolling. Specified coordinates will be relative to the browser window.
 <br>
-<br>
+
 ### Stick a div onto the bottom or top of the page
 Fixed bottom: 
 ```css
@@ -28,16 +28,15 @@ div {
     width: 100%;
 }
 ```
-<br><br>
+<br>
 ### Identify the background color of an existing webpage
 Use inspect tool -> look for `background-color` attribute in css.
-
-<br><br>
+<br>
 
 ### Grab the URL for an image from an existing webpage
 Use inspect tool -> hover over image and click inspect. 
+<br>
 
-<br><br>
 ### Center an element horizontally
 To center an image, set left and right margin to `auto` and make it into a `block` element:
 ```html
@@ -48,7 +47,7 @@ img {
   width: 40%;
 }
 ```
-<br><br>
+<br>
 
 ### Identify three ways you can include your CSS styles in a page
 #### Inline CSS
@@ -107,7 +106,7 @@ p {
   font-size: 12px;
 }
 ```
-<br><br>
+<br>
 
 ### Understand how to use classes and ids to target CSS at specific elements on the page
 In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
@@ -143,7 +142,7 @@ p.center {
   color: red;
 }
 ```
-<br><br>
+<br>
 
 ### Build a very basic form (even if it doesn’t “go” anywhere)
 To build a search form, we use an `input` element.
