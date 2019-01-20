@@ -5,18 +5,7 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 ## Things I learned: 
 ### Two ways to move a div around on the page
 **Relative positioning**: changes the position of the HTML element relative to where it normally appears. 
-```html
-<html>
-   <head>
-   </head>
 
-   <body>
-      <div style = "position:relative; left:80px; top:2px; background-color:yellow;">
-         This div has relative positioning.
-      </div>
-   </body>
-</html>
-```
 **Absollute positioning**: An element with position: absolute is positioned at the specified coordinates relative to your screen top-left corner.
 
 **Fixed positioning**: Fixed positioning allows you to fix the position of an element to a particular spot on the page, regardless of scrolling. Specified coordinates will be relative to the browser window.
